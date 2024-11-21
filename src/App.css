@@ -1,0 +1,57 @@
+#contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#contenedor h1{
+  text-align: center;
+  color: white;
+  font-size: 64px;
+}
+
+.personajes{
+  background-color: black;
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.personajes img {
+  width:  150px;
+  height: 150px;
+}
+
+#jugadores{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 32px;
+}
+
+#botones button{
+  font-size: 35px;
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: .3s all;
+}
+
+#botones button:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
